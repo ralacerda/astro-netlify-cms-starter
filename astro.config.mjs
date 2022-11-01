@@ -14,6 +14,8 @@ export default defineConfig({
         // Configure where our media assets are stored & served from
         media_folder: 'public/assets/blog',
         public_folder: '/assets/blog',
+        // Configure a locale
+        locale: 'pt',
         // Configure the content collections
         collections: [
           {
